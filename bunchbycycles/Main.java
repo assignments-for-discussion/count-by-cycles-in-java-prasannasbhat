@@ -13,7 +13,7 @@ public class Main {
       if(i<150) {
           counts.lowCount++;
       }
-      elif(i>=150 && i<650) {
+      else if(i>=150 && i<650) {
         counts.mediumCount++;
       }
       else {
