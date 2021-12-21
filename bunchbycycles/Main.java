@@ -11,14 +11,15 @@ public class Main {
     CountsByUsage counts = new CountsByUsage();
     for(int i:cycles) {
       if(i<150) {
-          lowCount++;
+          counts.lowCount++;
       }
       elif(i>=150 && i<650) {
-        mediumCount++;
+        counts.mediumCount++;
       }
       else {
-        highCount++;
+        counts.highCount++;
       }
+    }
     return counts;
   }
 
